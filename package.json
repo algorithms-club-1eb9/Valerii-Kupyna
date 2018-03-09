@@ -20,7 +20,7 @@
     "npm": "^5.7.1",
     "should": "^13.2.1"
   },
-"scripts": {
+  "scripts": {
     "test": "node ./node_modules/mocha/bin/mocha --recursive lib",
     "test-win": "(node ./node_modules/eslint/bin/eslint.js lib) && (node ./node_modules/mocha/bin/mocha --recursive lib)"
   },

@@ -21,7 +21,7 @@
     "should": "^13.2.1"
   },
   "scripts": {
-    "test": "node ./node_modules/mocha/bin/mocha --recursive lib",
+    "test": "node ./node_modules/mocha/bin/mocha --recursive lib --watch",
     "test-win": "(node ./node_modules/eslint/bin/eslint.js lib) && (node ./node_modules/mocha/bin/mocha --recursive lib)"
   },
   "repository": {
